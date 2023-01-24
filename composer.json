@@ -1,0 +1,14 @@
+{
+    "name": "dinushchathurya/websmslk",
+    "description": "This package use to send sms using websms.lk API",
+    "keywords": ["sms", "websms", "websms.lk", "websmslk"],
+    "type": "package",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "dinushchathurya",
+            "email": "dinushchathurya21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
