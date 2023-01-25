@@ -1,7 +1,9 @@
-<h1 align="center">Laravel Websms.lk sms gateway</h1>
-  <p align="center">
-    This package use to send sms using websms.lk API
-  </p><br><br>
+<div>
+  <h1 align="center">websms.lk SMS Gateway Laravel Package</h1>
+    <p align="center">
+      This package use to send sms using websms.lk API
+    </p>
+  <br><br>
 </div>
 
 ## Author 
