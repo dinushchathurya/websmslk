@@ -18,5 +18,12 @@
         "psr-4": {
             "Dinushchathurya\\Websms\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dinushchathurya\\Websms\\SmsServiceProvider"
+            ]
+        }
+  }
 }
