@@ -1,12 +1,11 @@
 <?php
 
-namespace Dinushchathurya\Websmslk;
+namespace Dinushchathurya\Websms;
 
 use Illuminate\Support\ServiceProvider;
 
 class SmsServiceProvider extends ServiceProvider
 {
-    
     public function boot()
     {
         $this->publishes([
@@ -17,8 +16,7 @@ class SmsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('sms', function () {
-            return new Sms;
+            return new Sms();
         });
     }
-
 }
