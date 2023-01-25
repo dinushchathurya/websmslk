@@ -9,5 +9,14 @@
             "name": "dinushchathurya",
             "email": "dinushchathurya21@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dinushchathurya\\Websms\\": "src/"
+        }
+    }
 }
