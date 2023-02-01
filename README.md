@@ -9,7 +9,7 @@
 </p>
 
 <div>
-  <h1 align="center">websms.lk SMS Gateway Laravel Package</h1>
+  <h1 align="center">Laravel Package to send sms using <a href="https://websms.lk/">websms.lk</a> SMS Gateway </h1>
     <p align="center">
       This package uses to send sms using websms.lk API
     </p>
