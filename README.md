@@ -20,7 +20,9 @@
 <ol>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#translations">Translations</a></li>
+    <li><a href="#config">Publish the config file</a></li>
+    <li><a href="#env">.env config</a></li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#author">Author</a></li>
     <li><a href="#license">License</a></li>
@@ -52,6 +54,8 @@ For more information about the above parameters, please visit [websms.lk](https:
 
 ## Usage
 
+This is a simple example of how to send SMS using this package.
+
 ```php
 use Dinushchathurya\Websms\Sms;
 
@@ -70,6 +74,10 @@ public function sendSms()
     ], 500);
   }
 }
+```
+
+```
+Route::get('/send-sms', [App\Http\Controllers\SmsController::class, 'sendSms'])->name('send-sms');
 ```
 
 ## Contributing
