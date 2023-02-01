@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Queue;
 
 class Sms
 {
-    public function send($numbers, $message)
+    public function send($numbers, $message, $scheduledate = null)
     {   
-        Queue::push(new SendSms($numbers, $message));
+        Queue::push(new SendSms($numbers, $message, $scheduledate));
     }
 }
