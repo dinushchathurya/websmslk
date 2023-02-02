@@ -11,7 +11,7 @@
 <div>
   <h1 align="center">Laravel Package to send sms using <a href="https://websms.lk/">websms.lk</a> SMS Gateway </h1>
     <p align="center">
-      This package uses to send sms using websms.lk API
+      This package allows you to send sms to multiple numbers at once using websms.lk  API
     </p>
     <br><br>
 </div>
