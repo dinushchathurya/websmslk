@@ -61,16 +61,17 @@ use Dinushchathurya\Websms\Sms;
 public function sendSms()
 {
   try {
-    $numbers = ['9476xxxxxx','9471xxxxxxx'];
-    $message = "ආයුබෝවන්. සාදරයෙන් පිළිගනිමු";
+    $numbers      = ['9476xxxxxx','9471xxxxxxx'];
+    $message      = "ආයුබෝවන්. සාදරයෙන් පිළිගනිමු";
+    $scheduledate = Carbon::now()->toDateTimeString();
     Sms::send($numbers, $message);                     
     return response()->json([
       'message' => 'SMS sent successfully'
     ]);  
   } catch (\Exception $e) {
-    return response()->json([
-      'message' => 'An error occurred while sending SMS: ' . $e->getMessage()
-    ], 500);
+      return response()->json([
+        'message' => 'An error occurred while sending SMS: ' . $e->getMessage()
+      ], 500);
   }
 }
 ```
