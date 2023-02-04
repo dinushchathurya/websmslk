@@ -19,7 +19,6 @@
 ## Table of Contents
 <ol>
     <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#config">Publish the config file</a></li>
     <li><a href="#env">.env config</a></li>
     <li><a href="#usage">Usage</a></li>
