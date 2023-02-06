@@ -64,7 +64,7 @@ public function sendSms()
     $numbers      = ['9476xxxxxx','9471xxxxxxx'];
     $message      = "ආයුබෝවන්. සාදරයෙන් පිළිගනිමු";
     $scheduledate = Carbon::now()->toDateTimeString();
-    Sms::send($numbers, $message);                     
+    Sms::send($numbers, $message, $scheduledate);                     
     return response()->json([
       'message' => 'SMS sent successfully'
     ]);  
